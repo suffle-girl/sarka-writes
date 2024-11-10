@@ -1,8 +1,8 @@
-import './styles.css';
+import styles from "./styles.module.less";
 
 export const App = (): JSX.Element => {
   return (
-    <div className="layout">
+    <div className={styles.layout}>
       <h1>Webová aplikace - React + TypeScript</h1>
     </div>
   );
