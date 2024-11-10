@@ -23,14 +23,25 @@ module.exports = {
       {
         test: /\.less$/, // Match .less files
         use: [
-          "style-loader", // Injects CSS into the DOM
+          "style-loader",
           {
-            loader: "css-loader", // Translates CSS into CommonJS
+            loader: "css-loader",
             options: {
-              modules: true, // Enable CSS Modules for scoped styling (optional)
+              modules: true, // Enable CSS Modules if desired
             },
           },
-          "less-loader", // Compiles Less to CSS
+          {
+            loader: "less-loader",
+            options: {
+              lessOptions: {
+                javascriptEnabled: true, // Required for Ant Design’s Less variables
+                modifyVars: {
+                  "@primary-color": "#1DA57A", // Example: customizing primary color
+                  // Add other custom variables here
+                },
+              },
+            },
+          },
         ],
       },
       {
