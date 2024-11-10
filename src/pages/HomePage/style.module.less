@@ -1,29 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.langBubbles {
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+  margin-top: 5px;
+}
+
+.contentBubbles {
+  display: flex;
+  flex-direction: row;
+  margin-top: -125px;
+}
+
 .bubble {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 200px;
   border-radius: 50%;
   font-family: var(--heading-font);
   font-size: 4rem;
 
   &Cs {
+    width: 239px;
+    height: 239px;
     background-color: var(--secondary-pink);
     color: var(--primary-pink);
+    margin-top: 100px;
+    margin-bottom: -50px;
   }
 
   &En {
+    width: 222px;
+    height: 222px;
     background-color: var(--primary-pink);
     color: var(--primary-purple);
+    margin-left: -35px;
+    margin-top: 150px;
   }
 
   &Cv {
     flex-direction: column;
-    width: 800px;
-    height: 800px;
+    width: 743px;
+    height: 743px;
     background-color: var(--primary-purple);
     color: white;
+    align-items: baseline;
+    padding-left: 120px;
 
     &Subheader {
       font-size: 2rem;
@@ -31,8 +61,9 @@
   }
 
   &Picture {
-    width: 600px;
-    height: 600px;
+    width: 461px;
+    height: 461px;
     background-color: var(--secondary-pink);
+    margin: 80px -140px 0;
   }
 }

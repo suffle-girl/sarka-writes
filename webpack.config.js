@@ -21,23 +21,26 @@ module.exports = {
         use: "ts-loader",
       },
       {
-        test: /\.less$/, // Match .less files
+        // Handle .module.less files (CSS Modules)
+        test: /\.module\.less$/,
         use: [
-          "style-loader",
+          MiniCssExtractPlugin.loader, // Extract CSS in production
           {
             loader: "css-loader",
             options: {
-              modules: true, // Enable CSS Modules if desired
+              modules: {
+                localIdentName: "[local]_[hash:base64:5]", // Class name format
+              },
             },
           },
           {
             loader: "less-loader",
             options: {
               lessOptions: {
-                javascriptEnabled: true, // Required for Ant Design’s Less variables
+                javascriptEnabled: true, // Required for Ant Design's Less variables
                 modifyVars: {
-                  "@primary-color": "#1DA57A", // Example: customizing primary color
-                  // Add other custom variables here
+                  "@primary-color": "#1DA57A", // Customize Ant Design primary color
+                  // Add more custom variables here if needed
                 },
               },
             },
@@ -45,10 +48,22 @@ module.exports = {
         ],
       },
       {
+        // Handle regular .less files (non-modules)
+        test: /\.less$/, // Exclude .module.less to avoid conflict
+        exclude: /\.module\.less$/,
+        use: [
+          MiniCssExtractPlugin.loader, // Extract CSS in production
+          "css-loader",
+          "less-loader", // Process the Less files
+        ],
+      },
+      {
+        // Handle .css files (non-modules)
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, "css-loader"],
       },
       {
+        // Handle image files (png, svg, jpg, etc.)
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: "asset/resource",
         generator: {

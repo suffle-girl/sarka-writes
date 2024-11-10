@@ -5,5 +5,5 @@ interface Props {
 }
 
 export const Layout = ({ children }: Props): JSX.Element => {
-  return <div>{children}</div>;
+  return <div className="layout">{children}</div>;
 };
