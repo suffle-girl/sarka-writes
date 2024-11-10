@@ -4,8 +4,8 @@
   --primary-purple: #331832;
   --primary-pink: #fccac5;
   --secondary-pink: #d81e5b;
-  --heading-font: "Domine";
-  --text-font: "Playfair Display";
+  --heading-font: "DominePlayfair Display";
+  --text-font: "Domine";
 }
 
 * {
