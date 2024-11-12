@@ -3,16 +3,34 @@
   justify-content: center;
   align-items: center;
   font-family: var(--heading-font);
-  font-size: 4rem;
+  font-size: 3rem;
+  color: white;
+  margin: 205px;
+
+  @media screen and (min-width: 450px) {
+    margin: 150px;
+  }
+
+  @media screen and (min-width: 520px) {
+    margin: 100px;
+  }
+
+  @media screen and (min-width: 600px) {
+    margin: 50px;
+  }
+
+  @media screen and (min-width: 940px) {
+    margin: 0;
+  }
 
   &Cv {
     flex-direction: column;
-    color: white;
+
     align-items: baseline;
     gap: 15px;
   }
 
   &Subheader {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
