@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { HomeOutlined } from "@ant-design/icons";
 import styles from "./style.module.less";
 import clsx from "clsx";
@@ -13,14 +13,25 @@ export const Content = ({
   mainContent,
   secondaryContent,
 }: Props): JSX.Element => {
+  const location = useLocation();
+  const currentPath = location.pathname;
+  const homePagePath = "/";
+
+  const isHomePage = currentPath === homePagePath;
+
   return (
     <>
-      <Link to="/">
-        <HomeOutlined className={styles.homeOutlined} />
-      </Link>
+      {!isHomePage ? (
+        <Link to="/">
+          <HomeOutlined className={styles.homeOutlined} />
+        </Link>
+      ) : null}
+
       <>
         <div className={clsx(styles.bubble, styles.bubbleCv)}>
-          <div className={styles.content}>{mainContent}</div>
+          <div className={!isHomePage ? styles.content : undefined}>
+            {mainContent}
+          </div>
         </div>
         <div className={clsx(styles.bubble, styles.bubblePicture)}>
           {secondaryContent}
