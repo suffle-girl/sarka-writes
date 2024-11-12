@@ -12,10 +12,14 @@ export const Layout = ({ children }: Props): JSX.Element => {
     <div className={styles.layout}>
       <div className={styles.langBubbles}>
         <Link to="/cs">
-          <div className={clsx(styles.bubble, styles.bubbleCs)}>CS</div>
+          <div className={clsx(styles.layoutBubble, styles.layoutBubbleCs)}>
+            CS
+          </div>
         </Link>
         <Link to="/en">
-          <div className={clsx(styles.bubble, styles.bubbleEn)}>EN</div>
+          <div className={clsx(styles.layoutBubble, styles.layoutBubbleEn)}>
+            EN
+          </div>
         </Link>
       </div>
 

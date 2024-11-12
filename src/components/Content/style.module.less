@@ -12,20 +12,19 @@
   align-items: center;
   border-radius: 50%;
   font-family: var(--heading-font);
-  font-size: 1rem;
+  color: white;
   gap: 10px;
 
-  &Cv {
+  &Main {
     flex-direction: column;
     width: 743px;
     height: 743px;
     background-color: var(--primary-purple);
-    color: white;
     align-items: baseline;
     padding-left: 120px;
   }
 
-  &Picture {
+  &Secondary {
     width: 461px;
     height: 461px;
     background-color: var(--secondary-pink);
@@ -39,9 +38,12 @@
   overflow-y: auto;
   overflow-x: hidden;
   padding: 5px 10px;
-  scrollbar-width: thin; /* Firefox */
-  scrollbar-color: var(--primary-pink) var(--secondary-pink); /* Firefox */
 
+  //   Firefox
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary-pink) var(--secondary-pink);
+
+  //   Other Browsers
   &::-webkit-scrollbar {
     width: 0.3rem;
   }

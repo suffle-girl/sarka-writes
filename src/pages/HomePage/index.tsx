@@ -9,12 +9,15 @@ export const HomePage = (): JSX.Element => {
     <Content
       mainContent={
         <>
-          <Link className={clsx(styles.bubble, styles.bubbleCv)} to="/cv">
+          <Link
+            className={clsx(styles.homePageBubble, styles.homePageBubbleCv)}
+            to="/cv"
+          >
             <div>
               Šárka
               <br /> Flídrová
             </div>
-            <div className={styles.bubbleCvSubheader}>
+            <div className={styles.homePageBubbleSubheader}>
               Writer | Translator | Localizer
             </div>
           </Link>

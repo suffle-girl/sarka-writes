@@ -27,16 +27,14 @@ export const Content = ({
         </Link>
       ) : null}
 
-      <>
-        <div className={clsx(styles.bubble, styles.bubbleCv)}>
-          <div className={!isHomePage ? styles.content : undefined}>
-            {mainContent}
-          </div>
+      <div className={clsx(styles.bubble, styles.bubbleMain)}>
+        <div className={clsx({ [styles.content]: !isHomePage })}>
+          {mainContent}
         </div>
-        <div className={clsx(styles.bubble, styles.bubblePicture)}>
-          {secondaryContent}
-        </div>
-      </>
+      </div>
+      <div className={clsx(styles.bubble, styles.bubbleSecondary)}>
+        {secondaryContent}
+      </div>
     </>
   );
 };
