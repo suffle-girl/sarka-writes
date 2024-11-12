@@ -1,0 +1,57 @@
+.homeOutlined {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  color: var(--primary-purple);
+  font-size: 3rem;
+}
+
+.bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-family: var(--heading-font);
+  font-size: 1rem;
+  gap: 10px;
+
+  &Cv {
+    flex-direction: column;
+    width: 743px;
+    height: 743px;
+    background-color: var(--primary-purple);
+    color: white;
+    align-items: baseline;
+    padding-left: 120px;
+  }
+
+  &Picture {
+    width: 461px;
+    height: 461px;
+    background-color: var(--secondary-pink);
+    margin: 80px -140px 0;
+  }
+}
+
+.content {
+  width: 75%;
+  height: 70%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 5px 10px;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: var(--primary-pink) var(--secondary-pink); /* Firefox */
+
+  &::-webkit-scrollbar {
+    width: 0.3rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--primary-purple);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--primary-pink);
+    border-radius: 10px;
+  }
+}

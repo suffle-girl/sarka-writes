@@ -1,0 +1,48 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--background-color);
+}
+
+.langBubbles {
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+  margin-top: 5px;
+}
+
+.contentBubbles {
+  display: flex;
+  flex-direction: row;
+  margin-top: -125px;
+}
+
+.bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-family: var(--heading-font);
+  font-size: 4rem;
+  gap: 10px;
+
+  &Cs {
+    width: 239px;
+    height: 239px;
+    background-color: var(--secondary-pink);
+    color: var(--primary-pink);
+    margin: 100px 0 -50px;
+  }
+
+  &En {
+    width: 222px;
+    height: 222px;
+    background-color: var(--primary-pink);
+    color: var(--primary-purple);
+    margin: 150px 0 0 -35px;
+  }
+}
