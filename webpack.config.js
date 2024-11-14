@@ -79,6 +79,7 @@ module.exports = {
     },
     liveReload: false,
     hot: false,
+    historyApiFallback: true, // Add this line to handle client-side routing
   },
   plugins: [
     new HtmlWebpackPlugin({
