@@ -1,54 +1,20 @@
 import { Content } from "../../components/Content";
+import { enTexts } from "../../resources/enTexts";
+import styles from "./style.module.less";
 
 export const ENPage = (): JSX.Element => {
   return (
     <Content
       mainContent={
-        <>
-          <h2>Lorem ipsum odor amet, </h2>
-          <p>
-            consectetuer adipiscing elit. Phasellus odio tortor molestie lacinia
-            dictum proin rutrum. Etiam penatibus mattis ligula blandit himenaeos
-            enim lacinia ridiculus. Inceptos curae mauris ac ligula laoreet
-            varius! Morbi molestie cursus tortor dolor luctus consequat
-            consectetur. Ut commodo proin gravida lobortis tortor pharetra.
-            Congue consectetur aliquet turpis eros vel massa. Cras ad ex viverra
-            iaculis maximus.
-          </p>
-
-          <h2>Lorem ipsum odor amet, </h2>
-          <p>
-            consectetuer adipiscing elit. Phasellus odio tortor molestie lacinia
-            dictum proin rutrum. Etiam penatibus mattis ligula blandit himenaeos
-            enim lacinia ridiculus. Inceptos curae mauris ac ligula laoreet
-            varius! Morbi molestie cursus tortor dolor luctus consequat
-            consectetur. Ut commodo proin gravida lobortis tortor pharetra.
-            Congue consectetur aliquet turpis eros vel massa. Cras ad ex viverra
-            iaculis maximus.
-          </p>
-
-          <h2>Lorem ipsum odor amet, </h2>
-          <p>
-            consectetuer adipiscing elit. Phasellus odio tortor molestie lacinia
-            dictum proin rutrum. Etiam penatibus mattis ligula blandit himenaeos
-            enim lacinia ridiculus. Inceptos curae mauris ac ligula laoreet
-            varius! Morbi molestie cursus tortor dolor luctus consequat
-            consectetur. Ut commodo proin gravida lobortis tortor pharetra.
-            Congue consectetur aliquet turpis eros vel massa. Cras ad ex viverra
-            iaculis maximus.
-          </p>
-
-          <h2>Lorem ipsum odor amet, </h2>
-          <p>
-            consectetuer adipiscing elit. Phasellus odio tortor molestie lacinia
-            dictum proin rutrum. Etiam penatibus mattis ligula blandit himenaeos
-            enim lacinia ridiculus. Inceptos curae mauris ac ligula laoreet
-            varius! Morbi molestie cursus tortor dolor luctus consequat
-            consectetur. Ut commodo proin gravida lobortis tortor pharetra.
-            Congue consectetur aliquet turpis eros vel massa. Cras ad ex viverra
-            iaculis maximus.
-          </p>
-        </>
+        <div>
+          {enTexts.map((text, index) => (
+            <div key={index} className={styles.text}>
+              <h2 className={styles.title}>{text.title}</h2>
+              <h3 className={styles.subtitle}>{text.origin}</h3>
+              <div>{text.content}</div>
+            </div>
+          ))}
+        </div>
       }
     ></Content>
   );
