@@ -36,6 +36,8 @@
   font-family: var(--heading-font);
   font-size: 4rem;
   gap: 10px;
+  position: relative;
+  transition: transform 0.4s ease, opacity 0.4s ease, z-index 0.4s ease;
 
   &Cs {
     width: 170px;
@@ -63,5 +65,11 @@
       height: 222px;
       margin: 150px 0 0 -35px;
     }
+  }
+
+  &.active {
+    z-index: 10;
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
   }
 }

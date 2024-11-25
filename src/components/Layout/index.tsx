@@ -13,6 +13,8 @@ export const Layout = ({ children }: Props): JSX.Element => {
   const homePagePath = "/";
 
   const isHomePage = currentPath === homePagePath;
+  const isCsPage = currentPath === "/cs";
+  const isEnPage = currentPath === "/en";
 
   return (
     <div
@@ -20,12 +22,20 @@ export const Layout = ({ children }: Props): JSX.Element => {
     >
       <div className={styles.langBubbles}>
         <Link to="/cs">
-          <div className={clsx(styles.layoutBubble, styles.layoutBubbleCs)}>
+          <div
+            className={clsx(styles.layoutBubble, styles.layoutBubbleCs, {
+              [styles.active]: isCsPage,
+            })}
+          >
             CS
           </div>
         </Link>
         <Link to="/en">
-          <div className={clsx(styles.layoutBubble, styles.layoutBubbleEn)}>
+          <div
+            className={clsx(styles.layoutBubble, styles.layoutBubbleEn, {
+              [styles.active]: isEnPage,
+            })}
+          >
             EN
           </div>
         </Link>
