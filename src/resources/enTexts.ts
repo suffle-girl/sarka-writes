@@ -4,7 +4,7 @@ interface Text {
   content: string;
 }
 
-export type Texts = Text[];
+type Texts = Text[];
 
 export const enTexts: Texts = [
   {
