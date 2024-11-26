@@ -7,19 +7,22 @@ import {
   tools,
   hobbies,
 } from "../../resources/cv";
+import styles from "./style.module.less";
 
 export const CVPage = (): JSX.Element => {
   return (
     <Content
       mainContent={
-        <div>
+        <div className={styles.container}>
           <div className="mainSection">
-            <div>{mainSection.sectionName}</div>
+            <div className={styles.title}>{mainSection.sectionName}</div>
             <div>{mainSection.description}</div>
           </div>
 
           <div className="workExperience">
-            <div>{workExperience.sectionName}</div>
+            <div className={styles.sectionTitle}>
+              {workExperience.sectionName}
+            </div>
             {workExperience.workExperience?.map((item, index) => (
               <div key={index}>
                 <div>{item.timePeriod}</div>
@@ -35,7 +38,7 @@ export const CVPage = (): JSX.Element => {
           </div>
 
           <div className="education">
-            <div>{education.sectionName}</div>
+            <div className={styles.sectionTitle}>{education.sectionName}</div>
             {education.education?.map((item, index) => (
               <div key={index}>
                 <div>{item.field}</div>
@@ -48,7 +51,7 @@ export const CVPage = (): JSX.Element => {
           </div>
 
           <div className="languages">
-            <div>{languages.sectionName}</div>
+            <div className={styles.sectionTitle}>{languages.sectionName}</div>
             {languages.languages?.map((item, index) => (
               <div key={index}>
                 {item.subject} – {item.description}
@@ -57,21 +60,27 @@ export const CVPage = (): JSX.Element => {
           </div>
 
           <div className="tools">
-            <div>{tools.sectionName}</div>
-            {tools.tools?.map((item, index) => (
-              <div key={index}>
-                {item.subject} – {item.description}
-              </div>
-            ))}
+            <div className={styles.sectionTitle}>{tools.sectionName}</div>
+            <div>
+              <ul>
+                {tools.tools?.map((item, index) => (
+                  <li key={index}>
+                    {item.subject} – {item.description}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
 
           <div className="hobbies">
-            <div>{hobbies.sectionName}</div>
-            {hobbies.hobbies?.map((item, index) => (
-              <div key={index}>
-                {item.subject} – {item.description}
-              </div>
-            ))}
+            <div className={styles.sectionTitle}>{hobbies.sectionName}</div>
+            <div>
+              <ul>
+                {hobbies.hobbies?.map((item, index) => (
+                  <li key={index}>{item.subject}</li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       }
