@@ -13,103 +13,38 @@ type Texts = Text[];
 
 export const csTexts: Texts = [
   {
-    title: "Úryvek z druhé kapitoly",
-    origin: "připravované knihy",
+    title: "Sváteční operace 2023: Průvodce akcí",
+    origin: "překlad pro World of Tanks",
     content: `
-Viktorie třeštila oči střídavě nalevo, napravo, až nakonec spatřila to, čeho se obávala. Ze zatáčky vzdálené asi čtyři sta metrů se vyřítil vlak. Téměř okamžitě k nim i přes zavřená okénka dolehl pronikavý tón výstražné sirény, jíž je strojvedoucí upozorňoval, že se mocný kovový kolos blíží. Vlak sice troubil, ale nezpomaloval ani nebrzdil, což působilo zdáním, že ani tam nefunguje všechno tak, jak by mělo. 
+Svátky už jsou za rohem, což znamená, že ve World of Tanks nastal čas na Sváteční operaci. S tunami odměn a skvělých překvapení se jedná o tu nejočekávanější akci roku!
 
-V poslední marné snaze ještě Vojtěch odbrzdil auto a kymácivými, zpola vzteklými pohyby se jej pokusil dát do pohybu. Auto sedělo na kolejích jako přibité. Kdyby nebyli na přejezdu úplně osamoceni a měli by více času, snad by bylo možné jej odtlačit z kolejí pomocí několika párů lidských rukou. Takhle však byly jejich šance nulové. Vlak i zvuk sirény se neúprosně přibližovaly. Viky chytila v poslední chvíli svého muže pevně za ruku. 
-
-Připravila se na náraz. Pevně semknula víčka. 
-
-Ozval se sotva postřehnutelný zvuk, jako když někdo svět kolem vás přiklopí zavařovací sklenicí.
-
-Viktorie otevřela nejprve jedno oko a pak přidala i druhé. Překvapeně zalapala po dechu. 
-
-Vlak stál pouhých pár metrů od jejich BMW. Za předním oknem modrožluté lokomotivy stál nehybně strojvedoucí s hrůzyplným výrazem ve tváři. Působil jako momentka, kterou se fotografovi nevědomky podařilo zachytit vteřinu před katastrofou. Teprve teď měla Viky možnost zaregistrovat typ vlaku – jednalo se zřejmě o jeden z rychlíků, o něž na zdejší trati nebylo nouze. Musel být plný lidí stejně vyděšených, jako byla ona sama i její rozlícený manžel. 
-
-Přesunula pohled na svého muže. Ani on se nehýbal a oči plné hrůzy a frustrace přitom třeštil na ni. Stále držela jeho ruku ve své, měla ovšem pocit, jako by jeho stisk ztratil veškerou sílu i razanci. Zdálo se, že zároveň bdí i spí. Auta na blízkém obchvatu stála. Nikde se nehýbla ani sýkorka, ani stéblo trávy. Svět se zastavil. 
-
-„Chyběl jsem vám?“ ozval se jí za zády chladný, temnotou zastřený hlas. Nadskočila a leknutím upustila Vojtovu ruku na opěrku mezi sedačkami. Otočila se tak, aby viděla na zadní sedadla, kde ležérně opřený dřepěl cizinec. Musel to být on, i když vypadal úplně jinak než před pár hodinami. Staromódní oblečení vystřídaly džíny, sportovní tenisky a černá mikina s kapucí, kterou měl přetaženou přes hlavu. Jeho tmavé oči plály zlověstným ohněm, ale už se nepropadaly do neutěšené temnoty. Po čerstvě oholené tváři mu pomalu stékal krvavý stříkanec. Co mohla Viky soudit, krev rozhodně nebyla jeho. Pobaveně se usmál a vytáhl z kapsy bílý bavlněný kapesník, aby si mohl nečistotu setřít. Odhalil tak dokonale bílé, leč trochu nepravidelné zuby. „Po dvou stech letech v pekle jednomu trvá, než se dá znovu do kupy,“ poznamenal suše, jako by četl Viktorii myšlenky. 
-
-„Takže tohle je tvoje práce?“ zaskřehotala Viky ochablým hlasem. Odkašlala si, aby si vyčistila vyschlé hrdlo. Chtěla znít sebevědomě. Přestože se tak vůbec necítila. 
-
-Uchechtl se. „Jistě. Cos myslela?“ zeptal se poněkud zklamaně. Na vteřinu nebo dvě na ni upřel zkoumavý pohled, úšklebek z jeho rtů však nemizel. „Každopádně jsem tu proto, abys nezapomínala na naši úmluvu. Ani tvůj drahý choť.“ Naklonil hlavu mírně napravo a zkoumavě si nehybného statného muže prohlížel. „Víš, kdybys mu teď chtěla vrazit pár facek, nikdy by se nedozvěděl, že ‘s to udělala,“ poznamenal pobaveně. 
+Namísto vaší klasické garáže jsme pro vás připravili sváteční vesničku plnou radosti a kouzelné atmosféry. Tam také najdete okamžitý dárek od nás: zbrusu nový prémiový italský střední tank III. úrovně M16/43 Sahariano. Jedná se o rychlý a obratný střední tank pro zábavnou a dynamickou hratelnost. Zde se také seznámíte s našimi hvězdnými hosty, Arniem a Millou! Provedou vás celou akcí a poskytnou vám speciální úkoly a bojové mise. Díky nim bude Sváteční operace ještě úžasnější! Připojte se k nám a pojďme slavit společně!
     `,
   },
   {
-    title: "Cesta za vlčí písní",
-    origin: "povídka",
+    title: "Aktuální informace: Opouštíme Rusko a Bělorusko",
+    origin: "překlad pro World of Tanks",
     content: `
-Záblesk světla v krajině, v níž vše již potemnělo. Doprovázen vlčím zpěvem v dáli, jako by ti určoval směr. Terén pod tvýma nohama přechází z mechového porostu v kamení, z kamení v balvany z balvanů na propastná údolí a z propastných údolí v ostrá skaliska.
+Velitelé!
 
-U posledního balvanu smeká se ti krok, ty padáš, padáš, a tvé teplo, tvé světlo, spolu s tebou.
+Operace World of Tanks v Rusku a Bělorusku budou převedeny na studio Lesta.
 
-Tvůj pád zastaví až samotné dno propasti.
+V posledních týdnech proběhla ve společnosti Wargaming strategická revize globálních obchodních činností. Společnost se rozhodla, že nebude vlastnit ani řídit jakékoliv podniky v Rusku a Bělorusku, a obě země opustí.
 
-Chvíli bez dechu ležíš a zdá se, že vše je ztraceno. Vlčí píseň v dáli zní najednou jinak. Zmateně. Ztraceně. Přejde v kníkot. Až zanikne docela.
+S účinností od 31. března 2022 společnost zahájila proces zavírání svého studia v běloruském Minsku a převedla činnosti spojené s provozováním svých her v Rusku a Bělorusku místnímu managementu studia Lesta, které již nadále nespadá pod společnost Wargaming. Společnost Wargaming z tohoto převodu nebude profitovat ani nyní, ani v budoucnu. Naopak očekáváme, že důsledkem tohoto rozhodnutí utrpíme značné ztráty.
 
-Tvé světlo skomírá, plápolá jako plamen svíce ve větru.
-
-Na kraj padá ticho. Děsivé. Dusivé. Tísnivé.
-
-Už nikdy nemá zazpívat kos, zabzučet včela. Už nikdy nemáš slyšet ten zvonivý smích.
-
-Už nikdy nemá vyjít slunce. Už nikdy nespatříš ten bezstarostný úsměv, po kterém srdce jihne a duše ví, že našla svého druha.
-
-
-Do ticha ozve se poslední zavytí. Mělo by znít zoufale, tklivě, jeho síle se však nedá odporovat. Jeden z vlků se dostal blíž, blíž na dosah, a naposledy zpívá. O naději, o důvěře… o domově.
-
-Ozve se hlasité BUCH! a ty zhluboka nabereš vzduch do plic.
-
-V dáli se ozývá vítězoslavná vlčí píseň. Znovu. Ze všech různých stran.
-
-Tvé světlo hoří dál. Ještě ne tak silně, ale hoří soustavně a neúnavně.
-
-Vstáváš.
-
-Stíny okolo tě sledují, ale s tvým světlem po tvém boku si na tebe nedovolí.
-
-Rovná ramena. Jasný krok. Neměnné tempo. Ať už míříš vzhůru k oblakům nebo strmě dolů do propasti, na kadenci tvých kroků se nic nemění. Spolu s vlčí písní, ke které se každým krokem blížíš, tvoří nesmrtelnou symfonii.
-
-Pramálo záleží na temnotě okolo. Nezajímá tě, kolik démonů si na tebe ve tmě brousí zuby. Dokud má tvé světlo pro co hořet, záleží na nich pramálo.
-
-S každým dalším vlkem, se kterým se setkáš, tušíš, že cíl tvé cesty je blíž a blíž. Ona už je nadosah.
-
-Až konečně dospěješ k palouku na vrcholu jedné z hor. Kolem dokola se tyčí do výše ohromné balvany a uprostřed kruhu stojí ledová kra. Přistoupíš k ní. Tvé světlo tě k ní táhne, jako by vědělo daleko víc, snad víc než ty i já kdy budeme vědět.
-
-Beze slova poklekneš. Nepřemýšlíš nad tím, co bude, pokud neuspěješ. Teď není ta chvíle a stíny okolo nesmí dostat příležitost.
-
-Pohlédneš do tváře ženě uvězněné v ledu. Hlavou ti proběhne vzpomínka na její smích, její štěstí, polibky, doteky; její pravdu, soucit i břemena, která si s sebou nosí a o která se s tebou bála podělit, aby o tebe nepřišla. Tvé světlo zaplane zářivým plamenem. Stíny opustí kruh, jste v něm konečně jen vy dva, vy dva a teplé, blyštící, zářící světlo, které vychází z tvé staré, nesmrtelné duše.
-
-„Vrať se mi,“ zašeptáš něžně, jako bys jí šeptal do vlasů. Pak povolíš a necháš světlo vstoupit do ledové kry.
-
-Světlo imploduje a tebe následně oslepí oslňující září znásobenou pevnou ledovou schránkou, kterou si kolem sebe tak pracně vybudovala. A pak zhasne docela.
-
-Padneš k zemi. Nejsi mrtvý, ještě ne. Ale pramálo na tom záleží. Udělal jsi vše, co bylo v tvých silách.
-
-Stíny, démoni a monstra se k tobě okamžitě stahují. Svět bez světla, svět bez zvuku. Tvůj bezhlesý křik už nikdo neuslyší. Propadáš se do bezvěké temnoty.
-
-Udělal jsi vše, co bylo v tvých silách. Vlastně víc. A selhal. Její démoni s tebou nebudou mít slitování.
-
-BUCH, ozve se konečně mocně, jako hrom rozléhající se nad krajinou. Stíny ustrnou. BUCH, uslyšíš znovu. V dáli zavyje vlk. Stíny se semknou v okrajích kamenného kruhu.
-
-Se třetím mocným odbitím jejího srdce se uvnitř ledové kry znovu rozžehne tvé světlo. Tak mocně, jako nikdy předtím.
-
-Prvním mocným výbojem led popraská. Se druhým se rozletí do všech stran, ale tebe jako zázrakem všechny úlomky minou. A se třetím exploduje svět.
-
-.
-
-Když si tvé oči konečně přivyknou světlu, všemu porozumíš. Noc, která neměla nikdy skončit, skončila. Nahradil ji den, nový den, bílý jako nepopsaný list papíru. A ona stojí před tebou. V celé své kráse. Otřesená, ale šťastná.
-
-„Myslím, že mám něco, co patří tobě,“ usměje se nesměle a v natažené ruce třímá tvé světlo.
-
-Konečně se můžeš usmát. Snad po tisíci letech. „Vezmu si ho,“ odpovídáš po krátké odmlce, „ale jen abych ho mohl každý den nosit pro tebe.“
-
-Obejmeš ji, jako by to bylo poprvé i naposled zároveň. „Už nikdy tě nenechám odejít,“ šeptáš jí láskyplně do vlasů.
-
-Pevně tě objímá rukama kolem krku a tiskne se k tobě každým kouskem svého těla. „Už nikdy nenech,“ odpoví.
+V ostatních zemích bude Wargaming i nadále spravovat World of Tanks jako doposud. Herní servery budou fungovat jako obvykle a hráčské účty, stejně jako jejich herní majetek nashromážděný nákupy i ostatními způsoby, zůstanou beze změny.
     `,
+  },
+  {
+    title: "Hobartovy ‚hračky‘: Tankové úpravy, které změnily průběh Dne D",
+    origin: "překlad pro World of Tanks",
+    content: `
+Hobartovy ‚hračky‘ – spojenecká vozidla navržená a upravená britským generálmajorem Percym Hobartem – do této kategorie spadají dokonale. Tyto silné stroje vyrazily v Den D se svým vybavením z vyloďovacích lodí a letadel, aby podpořily úspěšnou invazi. Pokud vám tyto kuriózní vynálezy nic neříkají – od voděodolných clon a pohonu až k plamenometům a odminovacím zařízením – pak je tento článek právě pro vás!
+
+Zjistili jsme více o tom, proč měly tyto jedinečné úpravy vozidel takový vliv, a to jak během vylodění v Normandii, tak i po něm. Nalaďte se do historické nálady a čtěte dál!
+
+`,
   },
   {
     title: "Štěstí",
@@ -134,6 +69,31 @@ snad nakrčíš nos,
 a budeš vědět:
 Tohle
 je ta muška zlatá.
+    `,
+  },
+  {
+    title: "Úryvek z druhé kapitoly",
+    origin: "připravované knihy",
+    content: `
+Viktorie třeštila oči střídavě nalevo, napravo, až nakonec spatřila to, čeho se obávala. Ze zatáčky vzdálené asi čtyři sta metrů se vyřítil vlak. Téměř okamžitě k nim i přes zavřená okénka dolehl pronikavý tón výstražné sirény, jíž je strojvedoucí upozorňoval, že se mocný kovový kolos blíží. Vlak sice troubil, ale nezpomaloval ani nebrzdil, což působilo zdáním, že ani tam nefunguje všechno tak, jak by mělo. 
+
+V poslední marné snaze ještě Vojtěch odbrzdil auto a kymácivými, zpola vzteklými pohyby se jej pokusil dát do pohybu. Auto sedělo na kolejích jako přibité. Kdyby nebyli na přejezdu úplně osamoceni a měli by více času, snad by bylo možné jej odtlačit z kolejí pomocí několika párů lidských rukou. Takhle však byly jejich šance nulové. Vlak i zvuk sirény se neúprosně přibližovaly. Viky chytila v poslední chvíli svého muže pevně za ruku. 
+
+Připravila se na náraz. Pevně semknula víčka. 
+
+Ozval se sotva postřehnutelný zvuk, jako když někdo svět kolem vás přiklopí zavařovací sklenicí.
+
+Viktorie otevřela nejprve jedno oko a pak přidala i druhé. Překvapeně zalapala po dechu. 
+
+Vlak stál pouhých pár metrů od jejich BMW. Za předním oknem modrožluté lokomotivy stál nehybně strojvedoucí s hrůzyplným výrazem ve tváři. Působil jako momentka, kterou se fotografovi nevědomky podařilo zachytit vteřinu před katastrofou. Teprve teď měla Viky možnost zaregistrovat typ vlaku – jednalo se zřejmě o jeden z rychlíků, o něž na zdejší trati nebylo nouze. Musel být plný lidí stejně vyděšených, jako byla ona sama i její rozlícený manžel. 
+
+Přesunula pohled na svého muže. Ani on se nehýbal a oči plné hrůzy a frustrace přitom třeštil na ni. Stále držela jeho ruku ve své, měla ovšem pocit, jako by jeho stisk ztratil veškerou sílu i razanci. Zdálo se, že zároveň bdí i spí. Auta na blízkém obchvatu stála. Nikde se nehýbla ani sýkorka, ani stéblo trávy. Svět se zastavil. 
+
+„Chyběl jsem vám?“ ozval se jí za zády chladný, temnotou zastřený hlas. Nadskočila a leknutím upustila Vojtovu ruku na opěrku mezi sedačkami. Otočila se tak, aby viděla na zadní sedadla, kde ležérně opřený dřepěl cizinec. Musel to být on, i když vypadal úplně jinak než před pár hodinami. Staromódní oblečení vystřídaly džíny, sportovní tenisky a černá mikina s kapucí, kterou měl přetaženou přes hlavu. Jeho tmavé oči plály zlověstným ohněm, ale už se nepropadaly do neutěšené temnoty. Po čerstvě oholené tváři mu pomalu stékal krvavý stříkanec. Co mohla Viky soudit, krev rozhodně nebyla jeho. Pobaveně se usmál a vytáhl z kapsy bílý bavlněný kapesník, aby si mohl nečistotu setřít. Odhalil tak dokonale bílé, leč trochu nepravidelné zuby. „Po dvou stech letech v pekle jednomu trvá, než se dá znovu do kupy,“ poznamenal suše, jako by četl Viktorii myšlenky. 
+
+„Takže tohle je tvoje práce?“ zaskřehotala Viky ochablým hlasem. Odkašlala si, aby si vyčistila vyschlé hrdlo. Chtěla znít sebevědomě. Přestože se tak vůbec necítila. 
+
+Uchechtl se. „Jistě. Cos myslela?“ zeptal se poněkud zklamaně. Na vteřinu nebo dvě na ni upřel zkoumavý pohled, úšklebek z jeho rtů však nemizel. „Každopádně jsem tu proto, abys nezapomínala na naši úmluvu. Ani tvůj drahý choť.“ Naklonil hlavu mírně napravo a zkoumavě si nehybného statného muže prohlížel. „Víš, kdybys mu teď chtěla vrazit pár facek, nikdy by se nedozvěděl, že ‘s to udělala,“ poznamenal pobaveně. 
     `,
   },
   {
@@ -337,6 +297,80 @@ A pak už nic.
 A nic, i kdyby něco.
 
 Prostě jen tma.
+    `,
+  },
+  {
+    title: "Cesta za vlčí písní",
+    origin: "povídka",
+    content: `
+Záblesk světla v krajině, v níž vše již potemnělo. Doprovázen vlčím zpěvem v dáli, jako by ti určoval směr. Terén pod tvýma nohama přechází z mechového porostu v kamení, z kamení v balvany z balvanů na propastná údolí a z propastných údolí v ostrá skaliska.
+
+U posledního balvanu smeká se ti krok, ty padáš, padáš, a tvé teplo, tvé světlo, spolu s tebou.
+
+Tvůj pád zastaví až samotné dno propasti.
+
+Chvíli bez dechu ležíš a zdá se, že vše je ztraceno. Vlčí píseň v dáli zní najednou jinak. Zmateně. Ztraceně. Přejde v kníkot. Až zanikne docela.
+
+Tvé světlo skomírá, plápolá jako plamen svíce ve větru.
+
+Na kraj padá ticho. Děsivé. Dusivé. Tísnivé.
+
+Už nikdy nemá zazpívat kos, zabzučet včela. Už nikdy nemáš slyšet ten zvonivý smích.
+
+Už nikdy nemá vyjít slunce. Už nikdy nespatříš ten bezstarostný úsměv, po kterém srdce jihne a duše ví, že našla svého druha.
+
+
+Do ticha ozve se poslední zavytí. Mělo by znít zoufale, tklivě, jeho síle se však nedá odporovat. Jeden z vlků se dostal blíž, blíž na dosah, a naposledy zpívá. O naději, o důvěře… o domově.
+
+Ozve se hlasité BUCH! a ty zhluboka nabereš vzduch do plic.
+
+V dáli se ozývá vítězoslavná vlčí píseň. Znovu. Ze všech různých stran.
+
+Tvé světlo hoří dál. Ještě ne tak silně, ale hoří soustavně a neúnavně.
+
+Vstáváš.
+
+Stíny okolo tě sledují, ale s tvým světlem po tvém boku si na tebe nedovolí.
+
+Rovná ramena. Jasný krok. Neměnné tempo. Ať už míříš vzhůru k oblakům nebo strmě dolů do propasti, na kadenci tvých kroků se nic nemění. Spolu s vlčí písní, ke které se každým krokem blížíš, tvoří nesmrtelnou symfonii.
+
+Pramálo záleží na temnotě okolo. Nezajímá tě, kolik démonů si na tebe ve tmě brousí zuby. Dokud má tvé světlo pro co hořet, záleží na nich pramálo.
+
+S každým dalším vlkem, se kterým se setkáš, tušíš, že cíl tvé cesty je blíž a blíž. Ona už je nadosah.
+
+Až konečně dospěješ k palouku na vrcholu jedné z hor. Kolem dokola se tyčí do výše ohromné balvany a uprostřed kruhu stojí ledová kra. Přistoupíš k ní. Tvé světlo tě k ní táhne, jako by vědělo daleko víc, snad víc než ty i já kdy budeme vědět.
+
+Beze slova poklekneš. Nepřemýšlíš nad tím, co bude, pokud neuspěješ. Teď není ta chvíle a stíny okolo nesmí dostat příležitost.
+
+Pohlédneš do tváře ženě uvězněné v ledu. Hlavou ti proběhne vzpomínka na její smích, její štěstí, polibky, doteky; její pravdu, soucit i břemena, která si s sebou nosí a o která se s tebou bála podělit, aby o tebe nepřišla. Tvé světlo zaplane zářivým plamenem. Stíny opustí kruh, jste v něm konečně jen vy dva, vy dva a teplé, blyštící, zářící světlo, které vychází z tvé staré, nesmrtelné duše.
+
+„Vrať se mi,“ zašeptáš něžně, jako bys jí šeptal do vlasů. Pak povolíš a necháš světlo vstoupit do ledové kry.
+
+Světlo imploduje a tebe následně oslepí oslňující září znásobenou pevnou ledovou schránkou, kterou si kolem sebe tak pracně vybudovala. A pak zhasne docela.
+
+Padneš k zemi. Nejsi mrtvý, ještě ne. Ale pramálo na tom záleží. Udělal jsi vše, co bylo v tvých silách.
+
+Stíny, démoni a monstra se k tobě okamžitě stahují. Svět bez světla, svět bez zvuku. Tvůj bezhlesý křik už nikdo neuslyší. Propadáš se do bezvěké temnoty.
+
+Udělal jsi vše, co bylo v tvých silách. Vlastně víc. A selhal. Její démoni s tebou nebudou mít slitování.
+
+BUCH, ozve se konečně mocně, jako hrom rozléhající se nad krajinou. Stíny ustrnou. BUCH, uslyšíš znovu. V dáli zavyje vlk. Stíny se semknou v okrajích kamenného kruhu.
+
+Se třetím mocným odbitím jejího srdce se uvnitř ledové kry znovu rozžehne tvé světlo. Tak mocně, jako nikdy předtím.
+
+Prvním mocným výbojem led popraská. Se druhým se rozletí do všech stran, ale tebe jako zázrakem všechny úlomky minou. A se třetím exploduje svět.
+
+.
+
+Když si tvé oči konečně přivyknou světlu, všemu porozumíš. Noc, která neměla nikdy skončit, skončila. Nahradil ji den, nový den, bílý jako nepopsaný list papíru. A ona stojí před tebou. V celé své kráse. Otřesená, ale šťastná.
+
+„Myslím, že mám něco, co patří tobě,“ usměje se nesměle a v natažené ruce třímá tvé světlo.
+
+Konečně se můžeš usmát. Snad po tisíci letech. „Vezmu si ho,“ odpovídáš po krátké odmlce, „ale jen abych ho mohl každý den nosit pro tebe.“
+
+Obejmeš ji, jako by to bylo poprvé i naposled zároveň. „Už nikdy tě nenechám odejít,“ šeptáš jí láskyplně do vlasů.
+
+Pevně tě objímá rukama kolem krku a tiskne se k tobě každým kouskem svého těla. „Už nikdy nenech,“ odpoví.
     `,
   },
 ];
