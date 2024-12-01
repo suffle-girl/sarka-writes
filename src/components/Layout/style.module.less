@@ -34,10 +34,14 @@
   align-items: center;
   border-radius: 50%;
   font-family: var(--heading-font);
-  font-size: 4rem;
+  font-size: 3rem;
   gap: 10px;
   position: relative;
   transition: transform 0.4s ease, opacity 0.4s ease, z-index 0.4s ease;
+
+  @media screen and (min-width: 650px) {
+    font-size: 4rem;
+  }
 
   &Cs {
     width: 170px;
@@ -46,7 +50,7 @@
     background-color: var(--secondary-pink);
     color: var(--primary-pink);
 
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 650px) {
       width: 239px;
       height: 239px;
       margin: 100px 0 -50px;
@@ -60,7 +64,7 @@
     background-color: var(--primary-pink);
     color: var(--primary-purple);
 
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 650px) {
       width: 222px;
       height: 222px;
       margin: 150px 0 0 -35px;
