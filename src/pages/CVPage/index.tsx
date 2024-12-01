@@ -25,8 +25,8 @@ export const CVPage = (): JSX.Element => {
             </div>
             {workExperience.workExperience?.map((item, index) => (
               <div key={index}>
-                <div>{item.timePeriod}</div>
-                <div>{item.title}</div>
+                <div className={styles.expTime}>{item.timePeriod}</div>
+                <div className={styles.expTitle}>{item.title}</div>
                 <div>{item.company}</div>
                 <ul>
                   {item.responsibilities.map((responsibility, i) => (
@@ -40,10 +40,11 @@ export const CVPage = (): JSX.Element => {
           <div className="education">
             <div className={styles.sectionTitle}>{education.sectionName}</div>
             {education.education?.map((item, index) => (
-              <div key={index}>
-                <div>{item.field}</div>
+              <div key={index} className={styles.eduContainer}>
+                <div className={styles.eduField}>{item.field}</div>
                 <div>
-                  {item.timePeriod} {item.school}
+                  <span className={styles.eduTime}>{item.timePeriod}</span>{" "}
+                  {item.school}
                 </div>
                 <div>{item.descrition}</div>
               </div>
@@ -54,7 +55,8 @@ export const CVPage = (): JSX.Element => {
             <div className={styles.sectionTitle}>{languages.sectionName}</div>
             {languages.languages?.map((item, index) => (
               <div key={index}>
-                {item.subject} – {item.description}
+                <span className={styles.highlight}>{item.subject}</span> –{" "}
+                {item.description}
               </div>
             ))}
           </div>
@@ -65,7 +67,8 @@ export const CVPage = (): JSX.Element => {
               <ul>
                 {tools.tools?.map((item, index) => (
                   <li key={index}>
-                    {item.subject} – {item.description}
+                    <span className={styles.highlight}>{item.subject}</span> –{" "}
+                    {item.description}
                   </li>
                 ))}
               </ul>
