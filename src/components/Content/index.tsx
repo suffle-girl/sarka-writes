@@ -1,18 +1,15 @@
 import { ReactNode } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { HomeOutlined } from "@ant-design/icons";
+import sarka from "./img/profile-picture.png";
 import styles from "./style.module.less";
 import clsx from "clsx";
 
 interface Props {
   mainContent?: ReactNode;
-  secondaryContent?: ReactNode;
 }
 
-export const Content = ({
-  mainContent,
-  secondaryContent,
-}: Props): JSX.Element => {
+export const Content = ({ mainContent }: Props): JSX.Element => {
   const location = useLocation();
   const currentPath = location.pathname;
   const homePagePath = "/";
@@ -33,7 +30,7 @@ export const Content = ({
         </div>
       </div>
       <div className={clsx(styles.bubble, styles.bubbleSecondary)}>
-        {secondaryContent}
+        <img src={sarka} alt="profile picture" />
       </div>
     </>
   );
