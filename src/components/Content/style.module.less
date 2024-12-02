@@ -1,14 +1,28 @@
-.homeOutlined {
+.navbar {
   position: fixed;
   top: 1rem;
   left: 1rem;
+  display: flex;
+  width: 88%;
+  justify-content: space-between;
   font-size: 2rem;
   color: var(--primary-purple);
 
   @media screen and (min-width: 400px) {
-    top: 2rem;
-    left: 2rem;
-    // font-size: 3rem;
+    width: 94%;
+  }
+
+  @media screen and (min-width: 700px) {
+    width: 97%;
+  }
+}
+
+.icons {
+  color: var(--primary-purple);
+
+  &Social {
+    display: flex;
+    gap: 1rem;
   }
 }
 
