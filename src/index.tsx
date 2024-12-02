@@ -19,12 +19,20 @@ const App = (): JSX.Element => {
   );
 };
 
+const WrappedErrorPage = (): JSX.Element => {
+  return (
+    <Layout>
+      <ErrorPage />
+    </Layout>
+  );
+};
+
 const router = createBrowserRouter(
   [
     {
       path: "/",
       element: <App />,
-      errorElement: <ErrorPage />,
+      errorElement: <WrappedErrorPage />,
       children: [
         { path: "/", element: <HomePage /> },
         { path: "/cv", element: <CVPage /> },
