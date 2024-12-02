@@ -1,3 +1,3 @@
 export const ErrorPage = (): JSX.Element => {
-  return <div>Asi jste zabloudili..</div>;
+  return <div>There is nothing to see here...</div>;
 };
